@@ -35,6 +35,14 @@ public class MoreLoopFun {
         ////////////////////////////////////////////////////
         //for loops compared to while loops////////////////
         //////////////////////////////////////////////////
-
+        String name = "Mr.Smith";
+        for(int i = 0; i<name.length(); i++){
+            System.out.println(name.charAt(i));
+        }
+        String name = "Mr.Smith";
+        int j = 0;
+        while(j < name.length()){
+            System.out.println(name.charAt(j));
+        }
     }
 }
